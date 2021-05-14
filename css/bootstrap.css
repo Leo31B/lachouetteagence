@@ -1621,10 +1621,6 @@ h6 {
     font-size: 12px
 }
 
-p {
-    margin: 0 0 10px
-}
-
 .lead {
     margin-bottom: 20px;
     font-size: 16px;
@@ -1656,10 +1652,6 @@ mark {
 .text-right {
     text-align: right
 }
-
-/*.text-center {
-    text-align: center
-}*/
 
 .text-justify {
     text-align: justify
@@ -2010,10 +2002,10 @@ pre code {
     margin-left: auto
 }
 
-.row {
+/*.row {
     margin-right: -15px;
     margin-left: -15px
-}
+}*/
 
 .col-lg-1,
 .col-lg-10,

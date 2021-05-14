@@ -15,7 +15,7 @@
 
 .footer {
   background-color: #F3976C;
-  padding: 20px 50px;
+  padding: 10px 50px;
 }
 
 .footer-text {
@@ -32,13 +32,173 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    padding: 20px 50px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    width: 75%;
+    margin: auto;
   }
 }
 
 @media screen and (max-width: 768px) {
-
+  .index-phone {
+    position: relative;
+    bottom: 50px;
+  }
+  .index-part1 {
+    height: 320px;
+  }
+  .index-h1 {
+    white-space: nowrap;
+    font-size: 30px !important;
+  }
 }
+
+/*Index*/
+.index-part1 {
+  background-image: url(img/la-chouette-agence-banniere.jpg) !important;
+  background-attachment: fixed;
+  background: top no-repeat;
+  position: relative;
+  padding: 100px 50px;
+}
+
+.index-part1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(img/texture-paper.png);
+  background-size: 280px 280px;
+}
+
+.index-h1 {
+  color: #F3976C!important;
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+}
+
+.index-button1 {
+  text-align: center;
+}
+
+.index-part2-h2 {
+  text-align: center;
+}
+
+.index-part2-icons {
+  text-align: center;
+}
+
+.index-part2-h3 {
+  text-align: center;
+}
+
+.index-part2-p {
+  text-align: center;
+}
+
+.index-part3-h2 {
+  color: #F3976C!important;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.index-part3-p {
+  color: #FFFFFF!important;
+  text-align: center;
+}
+
+.index-part3-contact {
+  color: #FFFFFF!important;
+  font-weight: 900;
+  text-decoration: underline!important;
+  display: flex;
+  justify-content: center;
+}
+
+.index-part4-h2 {
+  text-align: center;
+}
+
+.index-part4-h3 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.index-part4-p {
+  text-align: center;
+}
+
+.index-part5-h2 {
+  color: #F3976C!important;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.index-part5-contact {
+  text-align: center;
+}
+
+.index-part5 {
+  background-image: url(img/la-chouette-agence-banniere.jpg) !important;
+  position: relative;
+  background: 50% 50% no-repeat;
+  padding: 0 50px;
+  background-size: cover;
+}
+
+.index-part5::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(img/texture-paper.png);
+  background-size: 280px 280px;
+}
+
+/*Contact*/
+.contact {
+  background-color: #F3976C !important;
+  background-image: url(img/dots-bg.png) !important;
+  background: repeat;
+  position: relative;
+  padding: 100px 50px;
+}
+
+.contact::before {
+  background: url(img/texture-paper.png);
+  background-size: 280px 280px;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.contact-h1 {
+  text-align: center;
+}
+
+.contact-p {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+
+
+
 
 
 
@@ -61,15 +221,6 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
-}
-
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -97,11 +248,6 @@ a:hover {
     padding: 50px;
 }
 
-.bloc-sm {
-    padding: 20px 50px;
-}
-
-.bg-center,
 .bg-l-edge,
 .bg-r-edge,
 .bg-t-edge,
@@ -702,10 +848,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -1055,8 +1197,3 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-}
