@@ -1,5 +1,16 @@
+.header {
+  padding: 15px 0px;
+}
+
 .logo {
   height: 40px;
+}
+
+.navbar-ordi {
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  width: 175px;
 }
 
 .footer {
@@ -18,6 +29,19 @@
   width: 200px;
   margin: auto;
 }
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 20px 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+
+
 
 body {
     margin: 0;
@@ -306,7 +330,6 @@ a:hover {
 
 .navbar {
     margin-bottom: 0;
-    z-index: 1;
 }
 
 .navbar-brand {
