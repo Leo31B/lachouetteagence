@@ -5186,30 +5186,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     border-width: 1px 0 0
 }
 
-.navbar-brand {
-    float: left;
-    height: 50px;
-    padding: 15px 15px;
-    font-size: 18px;
-    line-height: 20px
-}
-
-.navbar-brand:focus,
-.navbar-brand:hover {
-    text-decoration: none
-}
-
-.navbar-brand>img {
-    display: block
-}
-
-@media (min-width:768px) {
-    .navbar>.container .navbar-brand,
-    .navbar>.container-fluid .navbar-brand {
-        margin-left: -15px
-    }
-}
-
 .navbar-toggle {
     position: relative;
     float: right;
@@ -5432,21 +5408,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     }
 }
 
-.navbar-default {
-    background-color: #f8f8f8;
-    border-color: #e7e7e7
-}
-
-.navbar-default .navbar-brand {
-    color: #777
-}
-
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:hover {
-    color: #5e5e5e;
-    background-color: transparent
-}
-
 .navbar-default .navbar-text {
     color: #777
 }
@@ -5550,16 +5511,6 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 .navbar-inverse {
     background-color: #222;
     border-color: #080808
-}
-
-.navbar-inverse .navbar-brand {
-    color: #9d9d9d
-}
-
-.navbar-inverse .navbar-brand:focus,
-.navbar-inverse .navbar-brand:hover {
-    color: #fff;
-    background-color: transparent
 }
 
 .navbar-inverse .navbar-text {
