@@ -199,6 +199,10 @@
 
 
 
+
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -217,15 +221,6 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
-}
-
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -253,11 +248,6 @@ a:hover {
     padding: 50px;
 }
 
-.bloc-sm {
-    padding: 20px 50px;
-}
-
-.bg-center,
 .bg-l-edge,
 .bg-r-edge,
 .bg-t-edge,
@@ -1207,8 +1197,3 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-}
