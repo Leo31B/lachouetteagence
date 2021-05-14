@@ -100,6 +100,70 @@
   text-align: center;
 }
 
+.index-part3-h2 {
+  color: #F3976C!important;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.index-part3-p {
+  color: #FFFFFF!important;
+  text-align: center;
+}
+
+.index-part3-contact {
+  color: #FFFFFF!important;
+  font-weight: 900;
+  text-decoration: underline!important;
+  display: flex;
+  justify-content: center;
+}
+
+.index-part4-h2 {
+  text-align: center;
+}
+
+.index-part4-h3 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.index-part4-p {
+  text-align: center;
+}
+
+.index-part5-h2 {
+  color: #F3976C!important;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.index-part5-contact {
+  text-align: center;
+}
+
+.index-part5 {
+  background-image: url(img/la-chouette-agence-banniere.jpg) !important;
+  position: relative;
+  background: 50% 50% no-repeat;
+  padding: 0 50px;
+  background-size: cover;
+}
+
+.index-part5::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(img/texture-paper.png);
+  background-size: 280px 280px;
+}
+
 /*Contact*/
 .contact {
   background-color: #F3976C !important;
@@ -129,6 +193,9 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+
+
+
 
 
 
