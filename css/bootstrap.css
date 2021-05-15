@@ -4044,7 +4044,6 @@ fieldset[disabled] .btn-danger:hover {
     border-radius: 0
 }
 
-.btn-link,
 .btn-link.active,
 .btn-link[disabled],
 fieldset[disabled] .btn-link {
@@ -4062,7 +4061,6 @@ fieldset[disabled] .btn-link {
 .btn-link:hover {
     color: #23527c;
     text-decoration: underline;
-    background-color: transparent
 }
 
 .btn-link[disabled]:focus,
@@ -4971,13 +4969,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-fixed-bottom .navbar-collapse,
 .navbar-fixed-top .navbar-collapse {
     max-height: 340px
-}
-
-@media (max-device-width:480px) and (orientation:landscape) {
-    .navbar-fixed-bottom .navbar-collapse,
-    .navbar-fixed-top .navbar-collapse {
-        max-height: 200px
-    }
 }
 
 .container-fluid>.navbar-collapse,
