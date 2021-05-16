@@ -13,6 +13,10 @@
   width: 175px;
 }
 
+.menu-phone {
+  background-color: black;
+}
+
 .footer {
   background-color: #F3976C;
   padding: 10px 50px;
