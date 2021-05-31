@@ -2,10 +2,6 @@
   padding: 15px 0px;
 }
 
-.logo {
-  height: 40px;
-}
-
 .navbar-ordi {
   background-color: red;
   display: flex;
@@ -166,6 +162,12 @@
   right: 0;
   background: url(img/texture-paper.png);
   background-size: 280px 280px;
+}
+
+.img-portofolio {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
 }
 
 /*Contact*/
